@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+:root {
+  --color-main: #66fcf1;
+  --font-color: #f9f9f9;
+  --color-dark: #0d0e13;
+  --color-extra: #68686b;
+}
+
+.expense-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 15vh;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #eee;
+  /* border-radius: 10px; */
+  box-shadow: 0 0 4px #333;
+  transition: 0.2s all ease-in-out;
+}
+
+.expense-item:hover {
+  background-color: rgba(13, 14, 19, 0.9);
+}
+
+.expense-title {
+  flex: 0;
+  position: relative;
+}
+
+.expense-price {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+}

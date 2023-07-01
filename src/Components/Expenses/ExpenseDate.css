@@ -1,0 +1,15 @@
+:root {
+  --color-main: #66fcf1;
+  --font-color: #f9f9f9;
+  --color-dark: #0d0e13;
+  --color-extra: #68686b;
+}
+
+.day,
+.month,
+.year {
+  border: 1px solid var(--font-color);
+  border-radius: 4px;
+  padding: 2px;
+  margin: 0.2rem;
+}

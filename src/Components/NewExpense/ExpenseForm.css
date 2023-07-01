@@ -1,0 +1,43 @@
+:root {
+  --color-main: #66fcf1;
+  --font-color: #f9f9f9;
+  --color-dark: #0d0e13;
+  --color-extra: #68686b;
+}
+
+.input-controls {
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #eee;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 3px solid var(--color-main);
+}
+
+.title {
+  grid-column: 1 / span 2;
+}
+
+.add-expense-btn {
+  grid-column: 1 / span 2;
+}
+
+.add-expense-btn button {
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  background-color: var(--color-main);
+  color: var(--font-color);
+  /* border-radius: 5px; */
+}
+
+.add-expense-btn button:hover {
+  background-color: var(--font-color);
+  color: #66fcf1;
+}
